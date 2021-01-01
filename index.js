@@ -7,8 +7,8 @@ client.db = require("quick.db");
 client.commands = new Discord.Collection();
 client.cooldown = new Discord.Collection();
 client.config = {
-    TOKEN: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", //Discord Bot Token
-    API_Token: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", //API Token found at http://api.snowflakedev.cf:9019/dashboard
+    TOKEN: "Nzk0NjQ1NzU1ODA0OTA5NjA4.X-91hw.B0pM2vTnh_AhYTkKo-CDltkCnzg", //Discord Bot Token
+    API_Token: "", //API Token found at http://api.snowflakedev.cf:9019/dashboard
     prefix: "!",
     cooldown: 15000
 };
@@ -58,4 +58,4 @@ function xp(message) {
     }
 }
 
-client.login(client.config.TOKEN);
+client.login(client.config.Nzk0NjQ1NzU1ODA0OTA5NjA4.X-91hw.B0pM2vTnh_AhYTkKo-CDltkCnzg);
